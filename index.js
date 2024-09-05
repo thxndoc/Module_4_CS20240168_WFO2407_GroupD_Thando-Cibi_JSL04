@@ -10,7 +10,7 @@ console.log(``);
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
-let cansLeft = 3; // Any number of cans
+let cansLeft = 7; // Any number of cans
 const stockCheck = cansLeft >= 5 ? "We're stocked!" : "Time to restock!";
 console.log(stockCheck);
 
