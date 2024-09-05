@@ -20,7 +20,8 @@ console.log(stockCheck);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+const workoutIntensity = heartRate < 100 ? "Boost needed!" : "Energy levels are high!";
+console.log(workoutIntensity);
 
 
 // #### Challenge 4: Temperature Suitability
