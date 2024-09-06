@@ -5,7 +5,7 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = "Sugar-free"; // Possible values: 'Regular', 'Sugar-free', or undefined
-const flavourSelection = userPreference ? "Sugar-free" : "Regular"
+const flavourSelection = userPreference ? "Sugar-free" : "Regular";
 console.log(flavourSelection);
 
 // #### Challenge 2: Stock Check
@@ -41,6 +41,8 @@ console.log(tempSuitability);
 
 // Define the current hour in 24-hour format
 let currentHour = 22; 
+const codingSession = currentHour >= 19 && "Unleash the beast!" || "Better stick to water.";
+console.log(codingSession);
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
