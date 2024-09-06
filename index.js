@@ -4,8 +4,9 @@
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
-let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-console.log(``);
+let userPreference = "Sugar-free"; // Possible values: 'Regular', 'Sugar-free', or undefined
+const flavourSelection = userPreference ? "Sugar-free" : "Regular"
+console.log(flavourSelection);
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
